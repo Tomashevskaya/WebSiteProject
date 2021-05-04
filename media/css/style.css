@@ -1,0 +1,108 @@
+body{
+	margin:0;
+	padding:0;
+	
+}
+
+#header{
+	background: url('../Img/Fon1.jpg');
+	height:200px;
+}
+#logotext{
+	float:left;
+	padding:10px;
+	color:#30d5c8;
+	font-family: Segoe Print;
+	text-shadow: 1px, 1px, 1px, black;
+	
+}
+#logo{
+	
+	float:right;
+	
+}
+#menu{
+	
+	display:flex;
+}
+
+#menu a{
+	
+	flex:1;
+	padding:10px 0;
+	text-align:center;
+	text-decoration:none;
+	color:black;
+	background:#30d5c8;
+	font-family: Segoe Print;
+	border-right:solid 1px gold;
+}
+#menu a:hover{
+	
+	background:white;
+	color:green;
+}
+#auth{
+	
+	float:right;
+	padding:50px 10px 0 0;
+}
+#auth a{
+	
+
+	background:#30d5c8;
+	border-right:solid 1px black;
+	color:black;
+	font-family: Segoe Print;
+}
+#auth a:hover{
+	
+
+	background:white;
+	color:green;
+}
+#content{
+	
+	display:flex;
+	
+	/* padding:40px 10px; */
+}
+#menuMain {
+	
+	width: 500px;
+	position: fixed;
+}
+
+#menuMain .button{
+	
+	padding:10px 0 0 0;
+	background: #30d5c8;
+	color: #black;
+	border-radius: 10px;
+	height:30px;
+	width: 200px;
+}
+#menuMain .button:hover {
+	
+	background: white;
+	color: green;
+}
+#menuMain ul{
+	
+	list-style-type: none;
+	padding-inline-start: 5px;
+	margin-left: 0;
+}
+#menuMain a {
+	
+	padding: 5px;
+	margin: 1px;
+	display: block;
+}
+#footer{
+	
+	background:#ccc;
+	color:white;
+	padding:60px 0;
+	text-align:center;
+}
